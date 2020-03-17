@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Home extends Component {
+class ComputadorasChidas extends Component {
     render() {
         return (
             <div>
-              Aqui ira el video
+                Reservacion de Computadoras
             </div>
         );
     }
 }
 
-export default Home;
+export default ComputadorasChidas;

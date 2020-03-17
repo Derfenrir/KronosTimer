@@ -4,7 +4,7 @@ class Footer extends Component {
     render() {
         return (
             <div>
-                Este es el pie de pagina
+              
             </div>
         );
     }

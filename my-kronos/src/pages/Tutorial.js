@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Configuraciones extends Component {
+class Tutorial extends Component {
     render() {
         return (
             <div>
-                Esta es la pagina de Configuraciones
+              Aqui ira el video de tutorial
             </div>
         );
     }
 }
 
-export default Configuraciones;
+export default Tutorial;

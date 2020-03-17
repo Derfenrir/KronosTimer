@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Home extends Component {
+class Xbox  extends Component {
     render() {
         return (
             <div>
-              Aqui ira el video
+              Reservacion de Xbox
             </div>
         );
     }
 }
 
-export default Home;
+export default Xbox ;

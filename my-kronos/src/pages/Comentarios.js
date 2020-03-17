@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Home extends Component {
+class Comentarios extends Component {
     render() {
         return (
             <div>
-              Aqui ira el video
+                Esta es la pagina de Comentarios
             </div>
         );
     }
 }
 
-export default Home;
+export default Comentarios;
