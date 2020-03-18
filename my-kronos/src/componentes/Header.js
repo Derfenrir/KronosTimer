@@ -7,7 +7,7 @@ import Tutorial from '../pages/Tutorial';
 import Xbox from '../pages/Xbox 360';
 import XboxOne from '../pages/Xbox One';
 import Computadoras from '../pages/Computadoras';
-
+import './header.css';
 
 class Header extends Component {
     render() {
@@ -15,6 +15,7 @@ class Header extends Component {
             
             <Router>
                 <div>
+
                     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                         <Link className="navbar-brand" to="/Inicio">CIBER PALENQUE</Link>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,6 +49,8 @@ class Header extends Component {
                             
                         </div>
                     </nav>
+  
+
                     <div>
                 <Switch>
                     <Route path="/Inicio"  exact component={Home}/>
@@ -60,7 +63,7 @@ class Header extends Component {
                 </Switch>
                 </div>
                 </div>
-                
+
             </Router>
         );
     }
