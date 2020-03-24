@@ -16,6 +16,8 @@ class Header extends Component {
             <Router>
                 <div>
 
+
+
                     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                         <Link className="navbar-brand" to="/Inicio">CIBER PALENQUE</Link>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,7 +64,10 @@ class Header extends Component {
 
                 </Switch>
                 </div>
+
                 </div>
+
+
 
             </Router>
         );

@@ -1,0 +1,26 @@
+.pie{
+    /* ajuste de tamaño y color de fondo */
+     background-color: rgb(116, 110, 110);
+    width: 280px;
+     height: auto; 
+
+    /* posicionamiento del name */
+       position: fixed;
+       bottom: 0;
+       right: 0;
+
+        /* Ajuste del texto */
+        font-size: 20px;
+        text-align: right;
+        text-decoration: underline;
+        letter-spacing: 10px;
+        text-shadow: 2px 2px 5px rgb(250, 248, 248);
+
+/* Diseño del marco y borde */
+        border: 5px;
+        border-style: solid;
+        padding: 10px 10px;
+        border-color: grey;
+        margin: 10px 10px;
+}
+
