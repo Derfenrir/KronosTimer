@@ -5,6 +5,7 @@ class Home extends Component {
         return (
             <div>
               Aqui ira el video
+              simon alrato
             </div>
         );
     }

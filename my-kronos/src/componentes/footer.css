@@ -1,8 +1,9 @@
 .pie{
     /* ajuste de tamaño y color de fondo */
      background-color: rgb(116, 110, 110);
+     left: 1076px;
     width: 280px;
-     height: auto; 
+     height: 65px; 
 
     /* posicionamiento del name */
        position: fixed;
@@ -24,3 +25,49 @@
         margin: 10px 10px;
 }
 
+.refer{
+
+    /* ajuste de tamaño y color de fondo */
+    background-color: rgb(116, 110, 110);
+    left: 1076px;
+    width: 280px;
+    height: 490px; 
+
+       /* posicionamiento del name */
+       position: fixed;
+       right: 0;
+    /* Ajuste del texto */
+        font-size: 20px;
+        text-align: center;
+       letter-spacing: 2px;
+
+/* Diseño del marco y borde */
+top: 46px;
+border-style: solid;
+padding: 10px 10px;
+border-color: grey;
+margin: 10px 10px;
+
+}
+.publicidad{
+        background-color: rgb(116, 110, 110);
+        width: 280px; 
+        height: 300px;
+        
+        position: fixed;
+       bottom: 100px;
+
+
+        /*Diseño del marco y borde */
+        border: 5px;
+        border-style: solid;
+        padding: 10px 10px;
+        border-color: grey;
+        margin: 10px 10px;
+}
+
+h1{
+
+        text-decoration: underline;
+        text-shadow: 2px 2px 5px rgb(250, 248, 248);
+}
