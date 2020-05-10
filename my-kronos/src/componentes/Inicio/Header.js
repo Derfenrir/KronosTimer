@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 
-import Home from '../pages/Home';
-import Comentarios from '../pages/Comentarios';
-import Tutorial from '../pages/Tutorial';
-import Xbox from '../pages/Xbox 360';
-import XboxOne from '../pages/Xbox One';
-import Computadoras from '../pages/Computadoras';
-import './header.css';
+import Home from '../../pages/Home';
+import Comentarios from '../../pages/Comentarios';
+import Tutorial from '../../pages/Tutorial';
+import Xbox from '../../pages/Xbox 360';
+import XboxOne from '../../pages/Xbox One';
+import Computadoras from '../../pages/Computadoras';
+
 
 class Header extends Component {
     render() {
