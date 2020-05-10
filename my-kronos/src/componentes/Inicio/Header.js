@@ -12,7 +12,7 @@ import Computadoras from '../../pages/Computadoras';
 class Header extends Component {
     render() {
         return (
-            
+
             <Router>
                 <div>
 
@@ -33,37 +33,37 @@ class Header extends Component {
                                     <Link className="nav-link" to="/comentarios">COMENTARIOS</Link>
                                 </li>
                                 <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Reservaciones
+                                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Reservaciones
         </a>
-                                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <Link className="dropdown-item" to="/Xbox 360">Xbox 360</Link>
-                                    <Link className="dropdown-item" to="/Xbox One">XboxOne</Link>
-                                    <Link className="dropdown-item" to="/Computadora">Computadoras</Link>
-                        
-                                    <div className="dropdown-divider"></div>
-                                   
-                                </div>
-                                
-                            </li>
-                               
+                                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <Link className="dropdown-item" to="/Xbox 360">Xbox 360</Link>
+                                        <Link className="dropdown-item" to="/Xbox One">XboxOne</Link>
+                                        <Link className="dropdown-item" to="/Computadora">Computadoras</Link>
+
+                                        <div className="dropdown-divider"></div>
+
+                                    </div>
+
+                                </li>
+
                             </ul>
-                            
+
                         </div>
                     </nav>
-  
+
 
                     <div>
-                <Switch>
-                    <Route path="/Inicio"  exact component={Home}/>
-                    <Route path="/comentarios"  exact component={Comentarios}/>
-                    <Route path="/tutorial"  exact component={Tutorial}/>
-                    <Route path="/Xbox 360"  exact component={Xbox}/>
-                    <Route path="/Xbox One"  exact component={XboxOne}/>
-                    <Route path="/Computadora"  exact component={Computadoras}/>
+                        <Switch>
+                            <Route path="/Inicio" exact component={Home} />
+                            <Route path="/comentarios" exact component={Comentarios} />
+                            <Route path="/tutorial" exact component={Tutorial} />
+                            <Route path="/Xbox 360" exact component={Xbox} />
+                            <Route path="/Xbox One" exact component={XboxOne} />
+                            <Route path="/Computadora" exact component={Computadoras} />
 
-                </Switch>
-                </div>
+                        </Switch>
+                    </div>
 
                 </div>
 

@@ -11,9 +11,9 @@ class App extends Component {
     return (
       <Router>
         <Header />
-     
+          <Footer />
         <div className="container-fluid">
-              <Footer />
+         
           <Route path='/xbox36' exact component={Xbox36}/>
           
           
