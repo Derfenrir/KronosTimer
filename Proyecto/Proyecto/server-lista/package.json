@@ -1,0 +1,27 @@
+{
+  "name": "server-lista",
+  "version": "1.0.0",
+  "description": "servidor de informacion para el software de horario",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js --exec babel-node"
+  },
+  "author": "\"alejandromanuel\",",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cors": "^2.8.5",
+    "expess": "0.0.1-security",
+    "express": "^4.17.1",
+    "express-promise-router": "^3.0.3",
+    "express-resource": "^1.0.0",
+    "mongoose": "^5.9.14",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
