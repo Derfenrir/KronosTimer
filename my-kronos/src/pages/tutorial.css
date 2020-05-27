@@ -1,0 +1,16 @@
+.texto{
+    width: 300px;
+background-color: black;
+    color: black;
+    font-size: 20px;
+    text-decoration: underline;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 5px rgb(250, 248, 248);
+
+    border: 5px;
+    border-style: solid;
+    padding: 10px 10px;
+    border-color: rgb(209, 206, 206);
+    margin: 10px 10px;
+
+} 

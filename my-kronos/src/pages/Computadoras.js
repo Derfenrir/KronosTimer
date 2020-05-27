@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-
+import './computadoras.css';
 class ComputadorasChidas extends Component {
     render() {
         return (
             <div>
-                <table class="table table-striped">
+              <div className = "tabla">
+
+              <table class="table table-striped">
           <thead class="thead-dark">
             <tr>
               <th scope="col">Computadoras</th>
@@ -80,6 +82,9 @@ class ComputadorasChidas extends Component {
             </tr>
           </tbody>
         </table>
+
+              </div>
+                
             </div>
         );
     }

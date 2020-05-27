@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-
+import './xbox360.css';
 class Xbox extends Component {
   render() {
     return (
       <div>
         <Link className="btn btn-primary mt-2" to="/xbox36" role="button">Agendar Horario</Link>
-        <table class="table table-striped">
+<div className = "tabla">
+
+<table class="table table-striped">
           <thead class="thead-dark">
             <tr>
               <th scope="col">Maquina</th>
@@ -82,6 +84,8 @@ class Xbox extends Component {
             </tr>
           </tbody>
         </table>
+</div>
+        
       </div>
     );
   }

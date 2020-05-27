@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import './xboxone.css';
+
 
 class XboxOne extends Component {
     render() {
         return (
             <div>
+              <div className = "tabla">
+
               <table class="table table-striped">
           <thead class="thead-dark">
             <tr>
@@ -80,6 +84,9 @@ class XboxOne extends Component {
             </tr>
           </tbody>
         </table>
+
+              </div>
+             
             </div>
         );
     }
