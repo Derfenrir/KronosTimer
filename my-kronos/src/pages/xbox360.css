@@ -1,0 +1,9 @@
+.tabla{
+    background-color: hsla(0, 0%, 0%, 0.473);
+        width: 80%;
+}
+
+th {
+    height: 20%;
+    color: white;
+  }

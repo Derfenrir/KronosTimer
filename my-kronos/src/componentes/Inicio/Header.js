@@ -7,14 +7,14 @@ import Tutorial from '../../pages/Tutorial';
 import Xbox from '../../pages/Xbox 360';
 import XboxOne from '../../pages/Xbox One';
 import Computadoras from '../../pages/Computadoras';
-
+import '../Inicio/header.css';
 
 class Header extends Component {
     render() {
         return (
 
             <Router>
-                <div>
+                <div className = "fondo">
 
 
 

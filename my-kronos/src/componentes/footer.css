@@ -31,7 +31,7 @@
     background-color: rgb(116, 110, 110);
     left: 1076px;
     width: 280px;
-    height: 490px; 
+    height: 526px; 
 
        /* posicionamiento del name */
        position: fixed;
@@ -49,22 +49,7 @@ border-color: grey;
 margin: 10px 10px;
 
 }
-.publicidad{
-        background-color: rgb(116, 110, 110);
-        width: 280px; 
-        height: 300px;
-        
-        position: fixed;
-       bottom: 100px;
 
-
-        /*Diseño del marco y borde */
-        border: 5px;
-        border-style: solid;
-        padding: 10px 10px;
-        border-color: grey;
-        margin: 10px 10px;
-}
 
 h1{
 
