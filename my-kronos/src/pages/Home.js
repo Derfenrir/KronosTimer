@@ -6,7 +6,7 @@ class Home extends Component {
             <div>
               <body className = "fondo">
               <div>
-                  Esta es la pagina de inicio
+                  PAGINA DE INICIO
                   </div>
               </body>
 
